@@ -1,0 +1,241 @@
+body {
+    margin: 0px;
+    outline: none;
+    background-color: #ffffff;
+    color: #000000;
+    
+
+}
+
+.foto img {
+    align-items: center;
+    border-radius: 20px;
+    
+    padding-left:30px ;
+}
+
+.foto {
+    padding: 80px;
+    background-color: #d0a2eb;
+    color: #6e217e;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+nav {
+    
+    height: 320px;
+    width: 160px;
+    left: -260px;
+    position: absolute;
+    transition: all .5s;
+    background-color: #ab60c9f8;
+    color: #ce1adf;
+    border-radius: 6px;
+
+}
+
+input[type="checkbox"]:checked~nav {
+    transform: translateX(260px);
+}
+
+ul {
+    top: 120px;
+    position: absolute;
+    width: 80%;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+nav li {
+    display: block;
+    padding: 20px 5px;
+    font-family: "Arial Bold", sans-serif;
+    color: #7e6783;
+    outline: none;
+
+}
+
+li :hover {
+
+    background-color: #efeaf0;
+    color: #991baa;
+    list-style-type: none;
+}
+
+label {
+
+    padding: 14px;
+    position: absolute;
+    z-index: 1;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #6d035b;
+    text-align: center
+}
+
+p {
+    font-family: inherit;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: #895fc0;
+    text-align: center;
+    border-radius: 2px;
+  
+    padding: 20px;
+    margin-top: 30px;
+
+}
+
+.curso img{ 
+    align-items: center;
+    border-radius: 20px;
+    width: 80px;
+    
+}
+.curso{
+    font-size: 50px;
+}
+
+h2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+
+  
+}
+
+
+
+.formacao {
+
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.formacao p {
+    padding: 20px;
+   color: #3d35ad;
+
+}
+
+.contatof{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.fim{
+   color: #5d2383;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+p button {
+
+    cursor: pointer;
+    background-color: #91a6cc;
+    padding: 8px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+    color: #fafcfa;
+    background-color: #80107a;
+    padding: 10px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+
+}
+
+
+footer {
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #e7e9ee;
+    color: #000000;
+    outline: none;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+
+.rede img{
+    align-items: center;
+    height: 45px;
+    width: 60px;
+    cursor: pointer;
+    padding: 15px;
+    
+}
+
+
+.projeto {
+
+    color: #efebf5;
+    text-align: center;
+    background-color: #593e97;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.contato {
+    padding: 10%;
+    background-color: #3d35ad;
+    color: #efebf3;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.whatsapp img {
+    align-items: center;
+    height: 65px;
+    width: 60px;
+    cursor: pointer;
+
+
+}
+
+.whatsapp {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#link-topo {
+    text-decoration: none;
+    color: #ffff;
+    padding: 12px;
+    background-color: #c008d8;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    box-shadow: 3px 3px 20px #7216ce;
+    border-radius: 8px;
+
+}
+
